@@ -1,4 +1,4 @@
-## Node, Express, TypeScript & MongoDB + Authentication application Boilerplate🚀
+## Node, Express, TypeScript & MongoDB + Authentication application Boilerplate 🚀
 
 ## Environment Setup
 
