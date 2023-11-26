@@ -1,4 +1,4 @@
-## Basic application structure for Node, Express, TypeScript & MongoDB + Authentication 🚀
+## Node, Express, TypeScript & MongoDB + Authentication application Boilerplate🚀
 
 ## Environment Setup
 
