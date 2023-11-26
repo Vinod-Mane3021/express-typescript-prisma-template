@@ -1,10 +1,10 @@
-## Basic application structure for Node, Express, TypeScript & MongoDB + Authentication
+## Basic application structure for Node, Express, TypeScript & MongoDB + Authentication 🚀
 
 ## Environment Setup
 
 #### Install typescript 
 ```
-npm init // to initialize project
+npm init
 npm i -D typescript
 npm i -D ts-node
 ```
