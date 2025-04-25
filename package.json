@@ -1,5 +1,5 @@
 {
-  "name": "expressjs-boilerplate",
+  "name": "express-typescript-prisma-template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
