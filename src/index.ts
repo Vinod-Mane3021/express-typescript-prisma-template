@@ -1,13 +1,14 @@
+import app from './app';
 import express from 'express';
+import dotenv from 'dotenv'
 
-const app = express()
-
-
-const PORT = process.env.PORT;
-const MONGODB_URL = process.env.MONGODB_URL
-
-app.listen(PORT, () => {
-    console.log(`⚙️  Server is running at PORT: ${PORT} | MONGODB_URL: ${MONGODB_URL}`)
+dotenv.config({
+    path: './.env'
 })
 
-export default app;
+const PORT = process.env.PORT;
+const DATABASE_URL = process.env.DATABASE_URL
+
+app.listen(PORT, () => {
+    console.log(`⚙️  Server is running at PORT: ${PORT} | DATABASE_URL: ${DATABASE_URL}`)
+})

@@ -46,29 +46,3 @@ npm i -D @types/express @types/body-parser @types/cookie-parser @types/compressi
 ```
 
 
-
-
-
-
-
-"dependencies": {
-    "body-parser": "^1.20.2",
-    "compression": "^1.7.4",
-    "cookie-parser": "^1.4.6",
-    "cors": "^2.8.5",
-    "dotenv": "^16.3.1",
-    "express": "^4.18.2",
-    "express-session": "^1.17.3",
-    "mongoose": "^8.0.1"
-  },
-  "devDependencies": {
-    "@types/body-parser": "^1.19.5",
-    "@types/compression": "^1.7.5",
-    "@types/cookie-parser": "^1.4.6",
-    "@types/cors": "^2.8.17",
-    "@types/express": "^4.17.21",
-    "nodemon": "^3.0.1",
-    "prettier": "^3.1.0",
-    "ts-node": "^10.9.1",
-    "typescript": "^5.3.2"
-  }
