@@ -4,9 +4,11 @@ import { ApiResponse } from "../utils/api-response";
 import { asyncHandler } from "../utils/async-handler";
 
 export const healthController = asyncHandler(
-  (req: Request, res: Response, next: NextFunction) => {
+  async (req: Request, res: Response, next: NextFunction) => {
+
     return new ApiResponse(res, {
         statusCode: HttpStatusCode.OK,
+        status: "SUCCESS",
         message: "working fine"
     })
   }
